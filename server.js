@@ -16,9 +16,9 @@ app.post('/', (req, res) => {
     language: 'en-CA',
     voice: 'woman',
     input: 'speech',
-    action: `https://${config.externalUrl}/completed'`
+    action: `https://${config.externalUrl}/completed`
   });
-  gather.say('Welcome to our AI demo, ask us a question.');
+  gather.say('Welcome to our A I demo, ask us a question.');
 
   response.redirect({
     method: 'POST'
